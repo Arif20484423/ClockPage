@@ -1,0 +1,81 @@
+body{
+    font-family: 'IBM Plex Mono', monospace;
+    
+
+background-image: url('https://www.hdwallpaper.nu/wp-content/uploads/2017/01/clock-10-1024x576.jpg');
+}
+header{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Orbitron', sans-serif;
+}
+.head{
+    background-color: rgb(31, 30, 30);
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100vw;
+}
+.head h1{
+    margin-left: 2em;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.cont1{
+    margin: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.item1{
+    /* width: 20vw;
+    height: 40vh; */
+    background-color: grey;
+    border-radius: 1.2rem;
+}
+.stp{
+    margin: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sss{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn{
+    background-color: grey;
+    width: 6em;
+    height: 2.5em;
+    margin: 1em;
+    border: 2px dashed #4d514f;
+    border-radius: 1em;
+}
+
+.item1 h3{
+    margin: 1em;
+}
+.item2{
+    /* width: 45vw;
+    height: 70vh; */
+    background-color: grey;
+    text-align: center;
+    border-radius: 1.2rem;
+}
+.item2 h2,h3{
+    margin: 2em;
+}
+.foot img{
+    width: 15px;
+    margin: 1.5rem;
+}
+.foot{
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+}
