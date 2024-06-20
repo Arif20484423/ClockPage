@@ -41,7 +41,7 @@ var time = document.getElementById('time');
 var text;
 function showtime() {
     var d = new Date();
-    text=d.getHours()+':'+d.getMinutes()+':'+d.getSeconds()+' on '+getdaystr(d.getDay())+','+d.getDate()+'-'+d.getMonth()+'-'+d.getFullYear();
+    text=d.getHours()+':'+d.getMinutes()+':'+d.getSeconds()+' on '+getdaystr(d.getDay())+','+d.getDate()+'-'+(d.getMonth()+1)+'-'+d.getFullYear();
     time.textContent = text;
 }
 setInterval(showtime, 100);
